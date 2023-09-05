@@ -1,0 +1,88 @@
+body {
+    background-color: lightgrey;
+}
+
+
+.reference {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-link {
+    display: flex;
+
+}
+
+.top-link li {
+    margin-right: 50px;
+    margin-top: 20px;
+    list-style-type: none;
+    font-weight: 650;
+}
+
+.girl-with-laptop {
+    display: flex;
+    justify-content: right;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+}
+
+
+.text {
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    transform: translate(-5%, -2%);
+    color: white;
+    width: 20%;
+
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#blue-laptop {
+    width: 100%;
+}
+
+.middle-section {
+    display: flex;
+}
+
+.education-1, .jobs-1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    flex-direction: column;
+}
+
+.education-2, .jobs-2 {
+    list-style-type: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+
+.bottom-links {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 500px) {
+    * {
+        flex-direction: column;
+    }
+
+    .text {
+        width: 50%;
+        left: 5%;
+    }
+}
