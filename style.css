@@ -38,6 +38,7 @@ body {
     transform: translate(-5%, -2%);
     color: white;
     width: 20%;
+    font-size: 30px;
 
 }
 
@@ -76,13 +77,26 @@ footer {
     list-style-type: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 414px) {
     * {
         flex-direction: column;
     }
 
     .text {
-        width: 50%;
+        width: 40%;
         left: 5%;
+        font-size: 15px;
     }
+}
+
+@media screen and (min-width: 768px) {
+    .text {
+        width: 40%;
+        left: 5%;
+        font-size: 30px;
+    }
+    .middle-section, footer,.reference {
+        font-size: 25px;
+    }
+
 }
